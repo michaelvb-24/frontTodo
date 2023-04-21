@@ -5,7 +5,7 @@ export default function EditTodo({ todo, updateTodo }) {
 
   async function modifyTodo(newTodo) {
     try {
-      const response = await fetch("https://todoback-l579.onrender.com", {
+      const response = await fetch("https://todoback-l579.onrender.com/modifyTodo", {
         method: "POST",
         body: JSON.stringify(newTodo),
         headers: {

@@ -13,7 +13,7 @@ export default function AddTodo({ addTodo }) {
   async function addTodoToDatabase() {
     try {
       setLoading(true);
-      const response = await fetch("https://todoback-l579.onrender.com", {
+      const response = await fetch("https://todoback-l579.onrender.com/addTodo", {
         method: "POST",
         body: JSON.stringify({
           content: value,

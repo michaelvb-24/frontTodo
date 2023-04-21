@@ -2,7 +2,7 @@ import styles from "./TodoItem.module.scss";
 export default function TodoItem({ todo, deleteTodo, updateTodo }) {
   async function modifyTodo(newTodo) {
     try {
-      const response = await fetch("https://todoback-l579.onrender.com", {
+      const response = await fetch("https://todoback-l579.onrender.com/modifyTodo", {
         method: "POST",
         body: JSON.stringify(newTodo),
         headers: {
@@ -21,7 +21,7 @@ export default function TodoItem({ todo, deleteTodo, updateTodo }) {
 
   async function handleDeleteTodo(deletedTodo) {
     try {
-      const response = await fetch("https://todoback-l579.onrender.com", {
+      const response = await fetch("https://todoback-l579.onrender.com/deleteTodo", {
         method: "POST",
         body: JSON.stringify(deletedTodo),
         headers: {
