@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     async function getTodoList() {
       try {
-        const response = await fetch("https://todoback-l579.onrender.com");
+        const response = await fetch("https://todoback-l579.onrender.com/getTodos");
         if (response.ok) {
           const todos = await response.json();
           setTodoList(todos);
