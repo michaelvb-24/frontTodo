@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontTodo/static/css/main.638fd8fe.css",
+    "main.js": "/frontTodo/static/js/main.bfe37420.js",
+    "static/js/787.9e0c1f39.chunk.js": "/frontTodo/static/js/787.9e0c1f39.chunk.js",
+    "index.html": "/frontTodo/index.html",
+    "main.638fd8fe.css.map": "/frontTodo/static/css/main.638fd8fe.css.map",
+    "main.bfe37420.js.map": "/frontTodo/static/js/main.bfe37420.js.map",
+    "787.9e0c1f39.chunk.js.map": "/frontTodo/static/js/787.9e0c1f39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.638fd8fe.css",
+    "static/js/main.bfe37420.js"
+  ]
+}
